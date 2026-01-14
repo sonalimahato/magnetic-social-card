@@ -33,12 +33,13 @@ body {
 }
 
 .profile-img {
-    width: 40px;  /* Set a fixed width */
-    height: 40px; /* Set a fixed height */
-    object-fit: cover; /* This prevents the image from stretching */
-    border-radius: 50%; /* Makes it a circle */
-    border: 2px solid #00ecff;
-    margin-bottom: 15px;
+    width: 100px;         /* Must be the same as height */
+    height: 100px;        /* Must be the same as width */
+    border-radius: 50%;   /* This creates the circle */
+    object-fit: cover;    /* This keeps the photo from stretching */
+    border: 2px solid #00ecff; /* Your neon border */
+    display: block;
+    margin: 0 auto 15px;  /* Centers the image */
 }
 
 .socials a {
@@ -53,5 +54,6 @@ body {
     text-shadow: 0 0 10px #00ecff;
 
 }
+
 
 
