@@ -33,9 +33,14 @@ body {
 }
 
 .profile-img {
-    border-radius: 50%;
-    border: 3px solid #00ecff;
+   .profile-img {
+    width: 100px;  /* Set a fixed width */
+    height: 100px; /* Set a fixed height */
+    object-fit: cover; /* This prevents the image from stretching */
+    border-radius: 50%; /* Makes it a circle */
+    border: 2px solid #00ecff;
     margin-bottom: 15px;
+}
 }
 
 .socials a {
@@ -48,4 +53,5 @@ body {
 .socials a:hover {
     color: #00ecff;
     text-shadow: 0 0 10px #00ecff;
+
 }
